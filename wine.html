@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+<title>
+Wine Installation
+</title>
+<link href="base.css" rel="stylesheet">
+<link href="favicons.png" rel="shortcut icon">
+</head>
+<body>
+<center>
+<h1><u>Installation Instructions for Wine 4.0</u></h1>
+</center>
+<h1>There comes a point in time where you may need to install Wine in order to run Windows EXE Executable Files.</h1>
+<h1>Here are the instructions to install it:</h1>
+<ul>
+<li><h4>You will need to enable 32-Bit architecture</h4></li>
+<li><h4>Run sudo dpkg --add-architecture i386</h4></li>
+<li><h4>wget -qO - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -</h4></li>
+<li><h4>For Ubuntu 19.04 run sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ disco main'</h4></li>
+<li><h4>For Ubuntu 18.04 run sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'</h4></li>
+<li><h4>For Ubuntu 16.04 run sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ xenial main'</h4></li>
+<li><h4>sudo apt-get update</h4></li>
+<li><h4>sudo apt-get install --install-recommends winehq-stable</h4></li>
+<li><h4>sudo apt-get install aptitude</h4></li>
+<li><h4>sudo aptitude install winehq-stable</h4></li>
+<li><h4>wine --version</h4></li>
+<li><h4>Run it by going into the folder the .exe is in and use wine filename.exe</h4></li>
+</body>
+</html>
